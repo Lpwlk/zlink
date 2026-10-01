@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zlink"
+dynamic = ["version"]
+description = "Rich CLI TCP client & server: chat, file transfers and server monitoring"
+readme = "README.md"
+license = { file = "LICENSE.md" }
+authors = [{ name = "Lpwlk", email = "loic.pawlicki@gmail.com" }]
+keywords = ["sockets", "networking", "rich", "cli", "chat", "file transfer"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Environment :: Console",
+    "Topic :: System :: Networking",
+]
+requires-python = ">=3.10"
+dependencies = ["rich>=13"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.scripts]
+zlink = "zlink.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/Lpwlk/zlink"
+"Bug Tracker" = "https://github.com/Lpwlk/zlink/issues"
+
+[tool.setuptools]
+packages = ["zlink"]
+
+[tool.setuptools.dynamic]
+version = { attr = "zlink.__version__" }
+
+[tool.setuptools.package-data]
+zlink = ["assets/sounds/*.aiff"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

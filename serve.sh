@@ -1,0 +1,1 @@
+zlink server -H 127.0.0.1 -p 8000 --svg server_logs.svg -v --debug-plus server_logs.log --wire-trace --data-dir data --max-clients 4 --theme midnight -vv
