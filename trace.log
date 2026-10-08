@@ -1,5 +1,0 @@
-[38;5;244m21:00:35.811 [0m[38;5;75mMainThread     [0m[38;5;244m● [0m[38;5;244mclient.[0m[1;38;5;111mClient.__init__[0m[38;2;135;215;255m(host='127.0.0.1', port=8000, downloads_dir=~/.richsockets/downloads, timeout=10.0)[0m[38;5;244m  0.01 ms[0m
-[38;5;244m21:00:35.811 [0m[38;5;75mMainThread     [0m[38;5;244m● [0m[38;5;244mshell.[0m[1;38;5;149mShell.__init__[0m[38;2;135;215;255m(client=<Client>, username=None)[0m[38;5;244m  0.04 ms[0m
-[38;5;244m21:00:35.812 [0m[38;5;75mMainThread     [0m[1m▶ [0m[38;5;244mshell.[0m[1;38;5;149mShell.run[0m[38;2;135;215;255m()[0m
-[38;5;244m21:00:35.815 [0m[38;5;75mMainThread     [0m[38;5;59m│ [0m[1;38;5;203m✗ [0m[38;5;244mclient.[0m[1;38;5;111mClient.connect[0m[38;2;135;215;255m()[0m[1;38;5;203m ✗ ConnectionRefusedError: [Errno 61] Connection refused[0m[38;5;244m  2.66 ms[0m
-[38;5;244m21:00:35.816 [0m[38;5;75mMainThread     [0m[1m◀ [0m[38;5;244mshell.[0m[1;38;5;149mShell.run[0m[38;5;244m → [0m[1;38;2;95;215;95m1[0m[38;5;244m  4.95 ms[0m

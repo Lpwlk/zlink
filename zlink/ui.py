@@ -193,7 +193,7 @@ def header(side: str) -> None:
 
 
 def capture_path(directory: Path, side: str, label: str | None = None) -> Path:
-    """Timestamped capture file name, e.g. captures/client-loic-2026-09-29_21-40-05.svg"""
+    """Timestamped capture file name.svg"""
     stamp = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
     name = '-'.join(part for part in (side, label, stamp) if part)
     return Path(directory) / f'{name}.svg'

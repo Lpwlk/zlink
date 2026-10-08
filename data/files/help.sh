@@ -1,0 +1,1 @@
+zlink --help; zlink server --help; zlink client --help
