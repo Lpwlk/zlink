@@ -10,3 +10,4 @@
 [ ] Test sounds & rename them according their planned use (only 6 of the 22 sounds are used, see sounds.Sound)
 [ ] TLS support
 [ ] Resumable transfers / folder uploads
+[ ] private mode with encryption for every user, not for guests
